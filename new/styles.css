@@ -26,6 +26,21 @@ ul, ol {
     margin: 10px 0;
 }
 
+#scoreboard {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px auto;
+    display: inline-block;
+}
+
+.random-image {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
 footer {
     background-color: #FF0000; /* Maldives Red */
     color: white;
