@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+header {
+    background-color: #008C45; /* Maldives Green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+ul, ol {
+    text-align: left;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #FF0000; /* Maldives Red */
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.light {
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Dark text */
+}
+
+.dark {
+    background-color: #333; /* Dark background */
+    color: #f9f9f9; /* Light text */
+}
