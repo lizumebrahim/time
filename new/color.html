@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color Clicker</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: lightgray;
+    }
+    h1 {
+        color: darkblue;
+    }
+    #colorBox {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        margin: 20px auto;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+<h1>Click the box to change its color!</h1>
+<div id="colorBox"></div>
+<script>
+    document.getElementById('colorBox').addEventListener('click', function() {
+        var red = Math.floor(Math.random() * 256);
+        var green = Math.floor(Math.random() * 256);
+        var blue = Math.floor(Math.random() * 256);
+        var rgbColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+        this.style.backgroundColor = rgbColor;
+    });
+</script>
+</body>
+</html>
